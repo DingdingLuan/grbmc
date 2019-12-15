@@ -174,11 +174,11 @@ do while (i<=num)
     !write(*,*)i
   endif
 enddo
-open(33,file='result/input_angle.txt')
-do k=1,12
-  write(33,*) ang1+(k-0.5)*0.2,cnt(k)/0.2/real(num)
-end do
-ang=10**(-1.27)
+!open(33,file='result/input_angle.txt')
+!do k=1,12
+  !write(33,*) ang1+(k-0.5)*0.2,cnt(k)/0.2/real(num)
+!end do
+!ang=10**(-1.27)
 
 !generate obs angle:
 i=1;cnt=0
