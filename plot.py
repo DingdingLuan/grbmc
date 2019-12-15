@@ -223,6 +223,7 @@ plt.savefig('result/plot/z_cdf.jpg')
 # plt.savefig('result/plot/z_line.eps')
 ###########################################################################
 #plot Lp
+#plot Lp oohohhh yes!
 plt.figure(figsize=(9,9))
 plt.title('Lp compared')
 plt.step(lposbindex,lpobs,linewidth=1.3,linestyle='-',c='black',label='obs')
