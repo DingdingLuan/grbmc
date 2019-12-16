@@ -44,7 +44,7 @@ external psi,pEgammao,band,bandE,ez,obss,tn,gaussterm
 pi=3.14159265
 !threshold=1.72d-8
 threshold=0.3
-log_egammaoc=53.6
+log_egammaoc=53.3
 sigma_egammao=0.6
 
 sigma_t90=0.66
