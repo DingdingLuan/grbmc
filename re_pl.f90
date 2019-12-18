@@ -10,7 +10,7 @@ program main
 use global
 implicit none
 integer*4 :: i,j,LM,k,ssb
-integer*4,parameter :: nsi=500,negamma=500,num=50000,n=20,goalnum=50000
+integer*4,parameter :: nsi=500,negamma=500,num=75000,n=20,goalnum=50000
 integer*4 :: nx,ny,selectnum
 real*8 :: cos_arpha,doplr,Gamma,Gamma_c,b_slope,step_theta_rad,step_fai,betta,s_1st,s_2nd,eps0
 real*8,dimension(nsi) :: Faiinte,GReisop,fai,theta_rad
